@@ -18,7 +18,7 @@ def cli():
 @cli.command()
 @click.option(
     "--model",
-    default="gpt-3.5-turbo",
+    default="gpt-4",
     help="Generative OpenAI model",
 )
 def start(model):
